@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+.expo-check/
+dist/
+web-build/
+tests/.build/
+*.log
+.DS_Store
+server/data/

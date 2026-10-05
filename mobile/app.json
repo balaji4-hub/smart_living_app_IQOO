@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Smart Living",
+    "slug": "smart-living",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "smartliving",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#070A14",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070A14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.smartliving.mobile"
+    },
+    "android": {
+      "package": "app.smartliving.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#070A14",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-secure-store", "expo-font"],
+    "extra": {
+      "apiUrl": null
+    }
+  }
+}

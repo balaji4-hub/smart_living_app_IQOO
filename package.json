@@ -1,0 +1,20 @@
+{
+  "name": "smart-home",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Smart Living: an Expo + three.js smart home app with a local device simulator.",
+  "scripts": {
+    "server": "npm --prefix server run start",
+    "server:dev": "npm --prefix server run dev",
+    "server:reset": "npm --prefix server run reset",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix mobile run typecheck",
+    "test:api": "node tests/api.test.mjs",
+    "test:scene": "node tests/run-scene-test.mjs",
+    "test": "npm run test:api && npm run test:scene",
+    "mobile": "npm --prefix mobile run start",
+    "mobile:android": "npm --prefix mobile run android",
+    "mobile:ios": "npm --prefix mobile run ios",
+    "mobile:web": "npm --prefix mobile run web",
+    "bundle:check": "npm --prefix mobile run bundle:check"
+  }
+}
